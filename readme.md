@@ -6,6 +6,9 @@
 pip install -r requirements.txt
 
 Вписать username и пароль в соответствующие переменные в скрипте, запустить main.py.
+
+
+
 В случае возникновения ошибки:
 1. Авторизоваться в instagram через firefox
 2. Выполнить скрипт 615_import_firefox_session
