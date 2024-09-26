@@ -1,6 +1,7 @@
 Парсер подписчиков аккаунта skillbox instagram.
 
 Для использования нужно 
+
 Выполнить команду
 pip install -r requirements.txt
 
