@@ -21,7 +21,7 @@ profile = instaloader.Profile.from_username(il.context, username=username)
 
 
 for follower in profile.get_followers()[:50]:
-    cursor.execute(f'INSERT INTO followers {follower.username} VALUES (?)')
+    cursor.execute('INSERT INTO followers (username) VALUES (?)', (follower.username,))
 
 conn.commit()
 conn.close()
